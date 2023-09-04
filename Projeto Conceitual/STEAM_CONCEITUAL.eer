@@ -43,7 +43,7 @@
     <nodes xmi:type="eer:Relationship" xmi:id="_bomDkEndEe62VI7iwOmwJA" name="DESENVOLVE" relationshipLink="_f1L_0EndEe62VI7iwOmwJA _gAnMsEndEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_k2zfkEndEe62VI7iwOmwJA" name="NOME" AttributeLinkTarget="_k27bYEndEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_lufVgEndEe62VI7iwOmwJA" name="CNPJ" type="IDENTIFIER" dataType="INTEGER" AttributeLinkTarget="_lukOAEndEe62VI7iwOmwJA"/>
-    <nodes xmi:type="eer:Relationship" xmi:id="_x5TskEndEe62VI7iwOmwJA" name="DSITRIBUI" relationshipLink="_zM7QkEndEe62VI7iwOmwJA _zeSGUEndEe62VI7iwOmwJA"/>
+    <nodes xmi:type="eer:Relationship" xmi:id="_x5TskEndEe62VI7iwOmwJA" name="DISTRIBUI" relationshipLink="_zM7QkEndEe62VI7iwOmwJA _zeSGUEndEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Entity" xmi:id="_klepkEneEe62VI7iwOmwJA" name="CONTA_REDE" AttributeLinkSource="_xCfj4EneEe62VI7iwOmwJA" relationshipLink="_pe-IEEneEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_oKF_0EneEe62VI7iwOmwJA" name="VINCULA" relationshipLink="_pe-IEEneEe62VI7iwOmwJA _ptlL0EneEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_xCWZ8EneEe62VI7iwOmwJA" name="USERNAME" type="IDENTIFIER" AttributeLinkTarget="_xCfj4EneEe62VI7iwOmwJA"/>
