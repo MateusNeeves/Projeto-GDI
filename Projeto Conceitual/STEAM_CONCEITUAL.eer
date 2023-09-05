@@ -44,7 +44,7 @@
     <nodes xmi:type="eer:Attribute" xmi:id="_cU2dwEtrEe6edrOdXJJ6Ow" name="EM_USO" dataType="BOOLEAN" AttributeLinkTarget="_cXLZAEtrEe6edrOdXJJ6Ow"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_BLT60Ev-Ee6I5NxyCRtBKg" name="SENHA" AttributeLinkTarget="_BLb2oEv-Ee6I5NxyCRtBKg"/>
     <nodes xmi:type="eer:Relationship" xmi:id="_qtil4EwAEe6I5NxyCRtBKg" name="TEM" isIdentifier="true" relationshipLink="_tMwaUEwAEe6I5NxyCRtBKg _tYcs8EwAEe6I5NxyCRtBKg"/>
-    <nodes xmi:type="eer:Attribute" xmi:id="_n8Y2cEwMEe6zTJ70ouhRyg" name="DATA" dataType="TIMESTAMP" AttributeLinkTarget="_n8iAYEwMEe6zTJ70ouhRyg"/>
+    <nodes xmi:type="eer:Attribute" xmi:id="_n8Y2cEwMEe6zTJ70ouhRyg" name="DATA_CONQ" dataType="TIMESTAMP" AttributeLinkTarget="_n8iAYEwMEe6zTJ70ouhRyg"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_lHgh8EnFEe62VI7iwOmwJA" source="_446FUEnEEe62VI7iwOmwJA" target="_lHeswEnFEe62VI7iwOmwJA"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_qas54EnFEe62VI7iwOmwJA" source="_446FUEnEEe62VI7iwOmwJA" target="_qap2kEnFEe62VI7iwOmwJA"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_xy5PcEnFEe62VI7iwOmwJA" source="_z1iSEEnEEe62VI7iwOmwJA" target="_446FUEnEEe62VI7iwOmwJA" cardinality="MANY"/>
@@ -394,7 +394,7 @@
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_n8b5wUwMEe6zTJ70ouhRyg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_n8b5wkwMEe6zTJ70ouhRyg" fontName="Segoe UI"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_n8b5w0wMEe6zTJ70ouhRyg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n8b5xEwMEe6zTJ70ouhRyg" x="792" y="510"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n8b5xEwMEe6zTJ70ouhRyg" x="792" y="510" width="109"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_yuWnkUnEEe62VI7iwOmwJA"/>
     <edges xmi:type="notation:Edge" xmi:id="_lHgh8UnFEe62VI7iwOmwJA" type="4007" element="_lHgh8EnFEe62VI7iwOmwJA" source="_446sYEnEEe62VI7iwOmwJA" target="_lHfT0EnFEe62VI7iwOmwJA">
