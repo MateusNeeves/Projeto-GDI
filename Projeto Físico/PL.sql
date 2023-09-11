@@ -1,3 +1,8 @@
+-- codigos para data e fuso horario --
+
+alter session set nls_date_format='dd/mm/yyyy hh24:mi:ss';
+alter session set time_zone='-3:00';
+
 -- BAIXAR A STEAM (CADASTRAR USUARIO) --
 
 CREATE OR REPLACE PROCEDURE BAIXAR_STEAM IS
