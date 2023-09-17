@@ -2,14 +2,14 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:eer="eer" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
   <eer:Schema xmi:id="_yt1DIEnEEe62VI7iwOmwJA">
     <nodes xmi:type="eer:Entity" xmi:id="_z1iSEEnEEe62VI7iwOmwJA" name="CONTA" AttributeLinkSource="_2Nt08EnFEe62VI7iwOmwJA _Qum5sEnGEe62VI7iwOmwJA _2py6sEnKEe62VI7iwOmwJA _cXLZAEtrEe6edrOdXJJ6Ow _BLb2oEv-Ee6I5NxyCRtBKg" relationshipLink="_xy5PcEnFEe62VI7iwOmwJA _dWya0EnJEe62VI7iwOmwJA _djidYEnJEe62VI7iwOmwJA _5EoBkEnOEe62VI7iwOmwJA _KtXY4EnaEe62VI7iwOmwJA _ptlL0EneEe62VI7iwOmwJA"/>
-    <nodes xmi:type="eer:Entity" xmi:id="_2VSSAEnEEe62VI7iwOmwJA" name="JOGO" inheritanceSL="_57IP8EnHEe62VI7iwOmwJA"/>
+    <nodes xmi:type="eer:Entity" xmi:id="_2VSSAEnEEe62VI7iwOmwJA" name="JOGO" relationshipLink="_tMwaUEwAEe6I5NxyCRtBKg" inheritanceSL="_57IP8EnHEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_lHeswEnFEe62VI7iwOmwJA" name="PRECO_COMPRA" dataType="FLOAT" AttributeLinkTarget="_lHgh8EnFEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_qap2kEnFEe62VI7iwOmwJA" name="DATA_COMPRA" dataType="TIMESTAMP" AttributeLinkTarget="_qas54EnFEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_2NqKkEnFEe62VI7iwOmwJA" name="USERNAME" type="IDENTIFIER" AttributeLinkTarget="_2Nt08EnFEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_QulrkEnGEe62VI7iwOmwJA" name="LOCALIZAÇÃO" AttributeLinkSource="_UHh9UEnGEe62VI7iwOmwJA _VXE5oEnGEe62VI7iwOmwJA _B65bgEnLEe62VI7iwOmwJA" AttributeLinkTarget="_Qum5sEnGEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_UHfhEEnGEe62VI7iwOmwJA" name="ESTADO" AttributeLinkTarget="_UHh9UEnGEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_VXB2UEnGEe62VI7iwOmwJA" name="PAIS" AttributeLinkTarget="_VXE5oEnGEe62VI7iwOmwJA"/>
-    <nodes xmi:type="eer:Entity" xmi:id="_eWIp4EnHEe62VI7iwOmwJA" name="APLICATIVO" AttributeLinkSource="_CHB6YEnIEe62VI7iwOmwJA _DTZm4EnIEe62VI7iwOmwJA _ESKVMEnIEe62VI7iwOmwJA _4PiUAEnLEe62VI7iwOmwJA" relationshipLink="_lFuuYEnHEe62VI7iwOmwJA _K5yrUEnaEe62VI7iwOmwJA _f1L_0EndEe62VI7iwOmwJA _tMwaUEwAEe6I5NxyCRtBKg" inheritanceGL="_5h-wIEnHEe62VI7iwOmwJA"/>
+    <nodes xmi:type="eer:Entity" xmi:id="_eWIp4EnHEe62VI7iwOmwJA" name="APLICATIVO" AttributeLinkSource="_CHB6YEnIEe62VI7iwOmwJA _DTZm4EnIEe62VI7iwOmwJA _ESKVMEnIEe62VI7iwOmwJA _4PiUAEnLEe62VI7iwOmwJA" relationshipLink="_lFuuYEnHEe62VI7iwOmwJA _K5yrUEnaEe62VI7iwOmwJA _f1L_0EndEe62VI7iwOmwJA" inheritanceGL="_5h-wIEnHEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Entity" xmi:id="_ecbfIEnHEe62VI7iwOmwJA" name="SOFTWARE" inheritanceSL="_9iO5gEnHEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Inheritance" xmi:id="_0aBX0EnHEe62VI7iwOmwJA" disjointness="DISJOINT" inheritanceGL="_5h-wIEnHEe62VI7iwOmwJA" inheritanceSL="_57IP8EnHEe62VI7iwOmwJA _9iO5gEnHEe62VI7iwOmwJA"/>
     <nodes xmi:type="eer:Attribute" xmi:id="_CHAsQEnIEe62VI7iwOmwJA" name="PRECO_ATUAL" dataType="FLOAT" AttributeLinkTarget="_CHB6YEnIEe62VI7iwOmwJA"/>
@@ -87,7 +87,7 @@
     <links xmi:type="eer:AttributeLink" xmi:id="_2OijMEqoEe6Z4e07yjXDgg" source="_FSGDAEnaEe62VI7iwOmwJA" target="_2OWV8EqoEe6Z4e07yjXDgg"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_cXLZAEtrEe6edrOdXJJ6Ow" source="_z1iSEEnEEe62VI7iwOmwJA" target="_cU2dwEtrEe6edrOdXJJ6Ow"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_BLb2oEv-Ee6I5NxyCRtBKg" source="_z1iSEEnEEe62VI7iwOmwJA" target="_BLT60Ev-Ee6I5NxyCRtBKg"/>
-    <links xmi:type="eer:RelationshipLink" xmi:id="_tMwaUEwAEe6I5NxyCRtBKg" source="_eWIp4EnHEe62VI7iwOmwJA" target="_qtil4EwAEe6I5NxyCRtBKg"/>
+    <links xmi:type="eer:RelationshipLink" xmi:id="_tMwaUEwAEe6I5NxyCRtBKg" source="_2VSSAEnEEe62VI7iwOmwJA" target="_qtil4EwAEe6I5NxyCRtBKg"/>
     <links xmi:type="eer:RelationshipLink" xmi:id="_tYcs8EwAEe6I5NxyCRtBKg" source="_LiseYEnaEe62VI7iwOmwJA" target="_qtil4EwAEe6I5NxyCRtBKg" participation="TOTAL" cardinality="MANY" isIdentifier="true"/>
     <links xmi:type="eer:AttributeLink" xmi:id="_n8iAYEwMEe6zTJ70ouhRyg" source="_NlxwcEnaEe62VI7iwOmwJA" target="_n8Y2cEwMEe6zTJ70ouhRyg"/>
   </eer:Schema>
@@ -649,7 +649,7 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BLdEw0v-Ee6I5NxyCRtBKg" points="[-38, -38, 261, 264]$[-299, -302, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BLh9QEv-Ee6I5NxyCRtBKg" id="(0.48760330578512395,0.7755102040816326)"/>
     </edges>
-    <edges xmi:type="notation:Edge" xmi:id="_tMxBYEwAEe6I5NxyCRtBKg" type="4006" element="_tMwaUEwAEe6I5NxyCRtBKg" source="_eWJQ8EnHEe62VI7iwOmwJA" target="_qtjM8EwAEe6I5NxyCRtBKg">
+    <edges xmi:type="notation:Edge" xmi:id="_tMxBYEwAEe6I5NxyCRtBKg" type="4006" element="_tMwaUEwAEe6I5NxyCRtBKg" source="_2VTgIEnEEe62VI7iwOmwJA" target="_qtjM8EwAEe6I5NxyCRtBKg">
       <children xmi:type="notation:DecorationNode" xmi:id="_tMxBZEwAEe6I5NxyCRtBKg" type="6006">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_tMxBZUwAEe6I5NxyCRtBKg" x="5" y="5"/>
       </children>
@@ -658,8 +658,9 @@
       </children>
       <styles xmi:type="notation:RoutingStyle" xmi:id="_tMxBYUwAEe6I5NxyCRtBKg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_tMxBYkwAEe6I5NxyCRtBKg" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tMxBY0wAEe6I5NxyCRtBKg" points="[-1, 20, 0, -110]$[-1, 124, 0, -6]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tMyPgEwAEe6I5NxyCRtBKg" id="(0.5,0.15)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tMxBY0wAEe6I5NxyCRtBKg" points="[0, 2, 228, -85]$[0, 87, 228, 0]$[-231, 87, -3, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IpcbAFTrEe6KRscvEcJUXA" id="(0.5391304347826087,0.9591836734693877)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tMyPgEwAEe6I5NxyCRtBKg" id="(1.0,0.475)"/>
     </edges>
     <edges xmi:type="notation:Edge" xmi:id="_ztFSwEwLEe6zTJ70ouhRyg" type="4006" element="_tYcs8EwAEe6I5NxyCRtBKg" source="_LitsgEnaEe62VI7iwOmwJA" target="_qtjM8EwAEe6I5NxyCRtBKg">
       <children xmi:type="notation:DecorationNode" xmi:id="_ztHvAEwLEe6zTJ70ouhRyg" type="6006">
